@@ -1,9 +1,10 @@
 /*Leon Arango 2019*/
+
 var cursos;
-console.log("Cargo")
+
 $(document).ready(function () {
    /* Se importa el archivo con un XMLHttpRequest */
-   var url = "../xlsx/Cursos.xlsx";
+   var url = "./xlsx/Cursos.xlsx";
    var oReq = new XMLHttpRequest();
    oReq.open("GET", url, true);
    oReq.responseType = "arraybuffer";
