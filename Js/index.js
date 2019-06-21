@@ -1,6 +1,6 @@
 /*Leon Arango 2019*/
 var cursos;
-
+console.log("Cargo")
 $(document).ready(function () {
    /* Se importa el archivo con un XMLHttpRequest */
    var url = "../xlsx/Cursos.xlsx";
