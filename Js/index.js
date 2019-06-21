@@ -3,7 +3,7 @@ var cursos;
 
 $(document).ready(function(){
 /* Se importa el archivo con un XMLHttpRequest */
-var url = "../xlsx/cursos.xlsx";
+var url = "./xlsx/cursos.xlsx";
 var oReq = new XMLHttpRequest();
 oReq.open("GET", url, true);
 oReq.responseType = "arraybuffer";
